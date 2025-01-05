@@ -1,0 +1,7 @@
+.main{
+    margin: 30px;
+}
+.contains{
+    display: flex; 
+    justify-content: space-between;
+}
