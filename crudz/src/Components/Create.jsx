@@ -58,7 +58,9 @@ function Create() {
                 </div>
                 {/* {name}
                 {email} */}
+                <div className='contains'>
                 <button type="submit" className="btn btn-primary" onClick={handleSubmit}>Submit</button>
+                <Link to='/ctgy'><button className='btn btn-primary'>Go to Ctgy </button></Link></div>
                 <ToastContainer />
             </form>
         </>
